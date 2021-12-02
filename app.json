@@ -1,0 +1,32 @@
+{
+    "name": "Play-Store-Searcher",
+    "logo": "https://telegra.ph//file/023ec77fd50cd62805c3c.jpg",
+    "description": "I Am A Play Store Bot",
+    "keywords": [
+        "telegram",
+        "telegrambot",
+        "PlayStore"
+    ],
+    "repository": "https://github.com/SuryaPrabhas1245/Play-Store-Searcher",
+    "website": "https://github.com/SuryaPrabhas1245/Play-Store-Searcher",
+    "env": {
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
